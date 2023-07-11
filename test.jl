@@ -8,3 +8,5 @@ tpl = Template(;
         Codecov(),
         Coveralls(),
         AppVeyor(),],)
+
+generate("BioprocessModeling", tpl)
